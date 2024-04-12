@@ -113,7 +113,7 @@ projects done on Contra
 </div>
 </div>
 <div className='grid mx-auto grid-rows-2 md:grid-rows-2 lg:grid-cols-2 gap-5 pt-5'>
-<div className='bg-[#f5f6f9] justify-center lg:px-10 px-5 flex flex-col w-[380px] md:w-[550px] lg:w-[678px] h-[439px]  rounded-xl md:h-[578px] lg:h-[678px]'>
+<div className='bg-[#f5f6f9] justify-center lg:px-10 px-5 flex flex-col w-[380px] md:w-[550px] lg:w-[600px] h-[439px]  rounded-xl md:h-[578px] lg:h-[678px]'>
 
 <p className=' text-[20px] text-[#14171f] lg:text-[50px]'>{firstPart} <span className='text-[#14171f] playfair font-thin text-[20px] lg:text-[50px]'>{secondPart}</span> with Contra</p>
 <p className='text-[#677084]'>{fourthPart}</p>
@@ -122,7 +122,7 @@ projects done on Contra
   <p className='text-white'>{buttonText}</p>
 </div>
 </div>
-<div style={{background:backgroundColor}} className='justify-center flex w-[380px] md:w-[550px] h-[439px] lg:w-[678px] rounded-xl md:h-[578px] lg:h-[678px]'>
+<div style={{background:backgroundColor}} className='justify-center flex w-[380px] md:w-[550px] h-[439px] lg:w-[600px] rounded-xl md:h-[578px] lg:h-[678px]'>
 <div className='absolute pt-[50%] lg:pt-[20%]'><img src={logo} className='lg:w-[278px]  w-[150px]'/></div>
 <div className=' absloute pt-[95%] lg:pt-[85%] pl-[30%] lg:pl-[50%]'><div className='flex-row flex  items-center justify-center'><p className='text-white text-[20px] lg:text-[30px]'>Read the case study</p><IoIosArrowRoundForward size={30} color='#fff'/></div></div>
 </div>

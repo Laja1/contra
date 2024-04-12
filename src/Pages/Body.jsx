@@ -57,36 +57,36 @@ export default function Body() {
 
 </div>
 </div>
-<div className='justify-center  mx-auto items-center  flex pt-5'>
+<div className='justify-center  mx-auto px-3 items-center  flex pt-5'>
   <p className='text-[11px] text-[#000] pb-4'>HIRE TOP EXPERTS IN</p></div>
   <div className='items-center lg:flex-col justify-center gap-3 flex  '>
    <div className='flex-col flex lg:flex-row items-center justify-center gap-4'>
-     <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+     <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/bb29f0dd891b07ab85f48c95cb98c9a921be0815-244x80.png?w=576&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
-      <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+      <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/8fbd91af0725bc1b2655f5385ff614c146d70203-238x70.png?w=576&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
 
 
-      <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+      <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/ff1dfec7de943ffa946396042a1b30f10dc0b87b-983x305.png?w=1440&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
-<div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+<div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/6bf8933982cbcc99b111cda79092684812684590-275x50.svg?w=576&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
-      <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+      <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/46f250c96604d0fb233dcc41c3c2168f9a4aca61-1344x350.png?w=1440&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
     </div>
     
     <div className='flex-col flex lg:flex-row items-center justify-center gap-4'> 
-    <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+    <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/3ed72f97ad172f7776db913243b456de7abfcd28-202x67.png?w=576&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
-      <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+      <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/b21f5e5d48095d7022a042bd47b72d9d2efdfcaa-262x44.png?w=576&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
 
 
-      <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+      <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/413258fe6be02bf5312168c84ca58fec76d22f94-230x62.png?w=576&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
-<div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+<div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/ca0f919c5d3fcae32946c327a478e662bf88e3f7-476x128.png?w=992&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
-      <div className='lg:w-[250px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
+      <div className='lg:w-[230px] w-[170px] h-[60px] border-[#000]  border-[0.5px] rounded-xl bg-white lg:h-[80px] items-center justify-between px-2 flex'>
       <img className='lg:w-20 w-16 h-6 lg:h-8 ' src='https://cdn.sanity.io/images/irqt9az8/production/39ffb9e03f25d7d0ad82f4bc009c90fe6db6d250-400x158.png?w=992&q=75&auto=format'/> <motion.div  whileHover={{ scale:1.2 }} initial={{scale:1}}><IoIosArrowRoundForward size={30} color='#000'/></motion.div></div>
     </div></div>
 

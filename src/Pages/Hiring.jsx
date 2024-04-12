@@ -10,7 +10,7 @@ export default function Hiring() {
 </div></div>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }} className='p-10 h-full'>
 
-  <div style={{ background: 'white',  borderRadius: '10px' }} className='w-[385px] '>
+  <div style={{ background: 'white',  borderRadius: '10px' }} className='w-[365px] '>
      
 <div className='bg-[#6A57E3] h-[100px] rounded-t-xl'>
 <div className='p-2 items-center flex flex-col text-white'>
@@ -32,7 +32,7 @@ export default function Hiring() {
  
   </div>  </div>
 <p></p>
-  <div style={{ background: 'white',  borderRadius: '10px' }} className='w-[385px] '>
+  <div style={{ background: 'white',  borderRadius: '10px' }} className='w-[365px] '>
      
 <div className='bg-[#14151f] h-[100px] rounded-t-xl'>
 <div className='p-2 items-center flex flex-col text-white'>
@@ -53,7 +53,7 @@ export default function Hiring() {
      
  
   </div>  </div>
-  <div style={{ background: 'white',  borderRadius: '10px' }} className='w-[385px] '>
+  <div style={{ background: 'white',  borderRadius: '10px' }} className='w-[365px] '>
      
 <div className='bg-[#ddd8ff] h-[100px] rounded-t-xl'>
 <div className='p-2 items-center flex flex-col text-black'>

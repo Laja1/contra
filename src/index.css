@@ -9,6 +9,15 @@
   font-style: normal;
 } */
 
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Internet Explorer, Edge and Firefox */
+.carousel-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 
 .playfair {
     font-family: "Playfair Display", serif;
