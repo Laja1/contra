@@ -17,7 +17,6 @@ export default function App() {
   <Body />
   <BrowseTalent />
   <Teams />
-
   <Hiring />
   <Freelancer />
   <FreelancerHiring />

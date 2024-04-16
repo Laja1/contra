@@ -22,11 +22,12 @@ export default function Body() {
 </div><p className='ext-[#677084] text-[10px] md:text-[15px] lg:text-[20px]'>FOR FREELANCERS</p>
     </div>
     <div className='items-center flex justify-center  px-10 pt-3 lg:pt-0'>
-    <p className=' text-center text-[#000] font-bold text-[30px] lg:w-[680px] lg:text-[85px]'>What do you need help with?</p>
+  <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2}}> <p className=' text-center text-[#000] font-bold text-[30px] lg:w-[680px] lg:text-[85px]'>What do you need help with?</p></motion.div> 
  </div>
- <div className='items-center flex justify-center  px-10'>
+ <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2}}><div className='items-center flex justify-center  px-10'>
     <p className=' text-center text-[20px] font-thin lg:w-full md:w-full w-[250px] lg:text-[30px]'>Discover the world's best experts for your next project</p>
- </div>
+      </div></motion.div>
+      <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{duration:2}}>
 <div className='items-center flex pt-3 justify-center'>
 <div
   className="w-[312px] lg:w-[750px] lg:h-[70px] h-[60px] shadow-2xl rounded-xl flex items-center justify-between px-4"
@@ -44,7 +45,7 @@ export default function Body() {
     <button className="bg-[#6A57E3] text-white lg:px-6 lg:py-3 px-3 py-2 rounded-[30px]">Get started</button>
   </div>
 </div>
-</div>
+</div></motion.div>
 <div className='justify-center  mx-auto items-center  flex pt-5'>
 <div className='flex-row  items-center  mx-auto gap-3 justify-center lg:w-[580px]  flex flex-wrap lg:justify-between'>
     <p className='text-sm'>POPULAR</p>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { motion } from 'framer-motion'
 export default function Hiring() {
   return (
     <div className=''>
@@ -8,7 +8,7 @@ export default function Hiring() {
         <div style={{backgroundColor: '#6a57e3  '}} className='w-[155px] py-3 border-[#6a57e3] items-center flex shadow-xl  justify-center  border-[0.7px]   rounded-3xl'>
   <p className='text-white'>Sign Up Free</p>
 </div></div>
-      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }} className='p-10 h-full'>
+<motion.div initial={{ opacity: 0, x: -10, y: 30 }}  whileInView={{opacity:1, x:0,y:0}} transition={{duration:3}}> <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px' }} className='p-10 h-full'>
 
   <div style={{ background: 'white',  borderRadius: '10px' }} className='w-[365px] '>
      
@@ -74,8 +74,8 @@ export default function Hiring() {
       <p className='px-5 py-3 text-black'>Contra not only helps us find those people with specialized skills, the one-stop-shop solution allows us to manage projects end-to-end.</p>
      
  
-  </div>  </div>
-</div>
+  </div> </div>
+</div> </motion.div>  
     </div></div>
   )
 }

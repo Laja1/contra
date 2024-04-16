@@ -28,7 +28,7 @@ setFourthPart(text4)
 setLogo(logoUrl)
     }
     return (
-    <div className="lg:h-[280vh] md:h-[150vh] h-[180vh]  bg-[#fff] pt-20 flex flex-col items-center">
+    <div className="lg:h-[190vh] md:h-[150vh] h-[180vh]  bg-[#fff] pt-20 flex flex-col items-center">
       <h1 className="text-center w-[260px] text-[35px] md:text-4xl lg:text-6xl lg:w-[700px]  md:w-[500px] font-medium mb-10">
         <span className="font-light">
         The best teams get their{' '}</span>
@@ -115,12 +115,12 @@ projects done on Contra
 <div className='grid mx-auto grid-rows-2 md:grid-rows-2 lg:grid-cols-2 gap-5 pt-5'>
 <div className='bg-[#f5f6f9] justify-center lg:px-10 px-5 flex flex-col w-[380px] md:w-[550px] lg:w-[600px] h-[439px]  rounded-xl md:h-[578px] lg:h-[678px]'>
 
-<p className=' text-[20px] text-[#14171f] lg:text-[50px]'>{firstPart} <span className='text-[#14171f] playfair font-thin text-[20px] lg:text-[50px]'>{secondPart}</span> with Contra</p>
+            <motion.div initial={{ opacity: 0, x: -20, y: 20 }}  whileInView={{opacity:1, x:0,y:0}} transition={{duration:2}}><p className=' text-[20px] text-[#14171f] lg:text-[50px]'>{firstPart} <span className='text-[#14171f] playfair font-thin text-[20px] lg:text-[50px]'>{secondPart}</span> with Contra</p>
 <p className='text-[#677084]'>{fourthPart}</p>
 <p className='w-[280px] font-bold text-[#14171f] pb-3'>{fifthPart}</p>
 <div style={{backgroundColor: backgroundColor2}} className='w-[155px] py-3 items-center flex shadow-xl  justify-center  border-[0.7px]   rounded-3xl'>
   <p className='text-white'>{buttonText}</p>
-</div>
+</div></motion.div>
 </div>
 <div style={{background:backgroundColor}} className='justify-center flex w-[380px] md:w-[550px] h-[439px] lg:w-[600px] rounded-xl md:h-[578px] lg:h-[678px]'>
 <div className='absolute pt-[50%] lg:pt-[20%]'><img src={logo} className='lg:w-[278px]  w-[150px]'/></div>
